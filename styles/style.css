@@ -1,0 +1,162 @@
+*{
+    margin: o;
+    padding: o ;
+}
+.navbar{
+    width: 1200px;
+    height: 5px;
+    margin:auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #179029;
+    font: cursive;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+.menu{
+width: 400px;
+float: left;
+height: 70px;
+}
+ul{
+  float: left;  
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px; 
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #179029;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out
+}
+ul li a:hover{
+    color: orange;
+
+}
+
+
+
+
+
+
+
+
+
+.nishat{
+    background-image: url('../nishat/beauty.jpg');
+    height: 700px;
+    background-size: cover;
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); */
+
+}
+.nishat h1{
+    color: black;
+    text-align: center;
+font-family:Georgia;
+font-size:50px;
+padding: 100px;
+
+}
+.zone h1{
+    color: rgb(1, 14, 3);
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    border-color:brown;
+    padding-bottom:30px;
+    
+}
+.zone,#mybeauty{
+    margin:50px;
+    padding: 40px;
+    border-width: 15px;
+    border-color:rgb(183, 88, 33);
+    border-style: solid;
+
+ /* background-color: rgb(15, 172, 172); */
+ background: linear-gradient(pink,rgb(41, 41, 236));
+}
+.zone p .new{
+    font-size: 40px;
+
+}
+#item{
+    display: flex;
+
+}
+
+.my{
+    display: flex;
+    height: 750;
+    width:500;
+    gap: 10px;
+    flex:wrap;
+    justify-content: center;
+}
+.my div{
+    min-width:300px;
+
+}
+.my img{
+    width: 100%;
+}
+
+.nuso{
+    margin:50px;
+    padding: 4px;
+    border-width: 5px;
+    border-color:rgb(183, 88, 33);
+    border-style: solid;
+    background: linear-gradient(pink,blue);
+}
+
+
+
+.nuso p{
+    color: black;
+    font-size: 15px;
+}
+.nuso h1{
+    text-align: center;
+}
+.sipo{
+    margin:50px;
+    padding: 4px;
+    border-width: 5px;
+    border-color:rgb(183, 88, 33);
+    border-style: solid;
+    background: linear-gradient(pink,blue);
+    
+}
+.sipo p{
+    color: black;
+
+}
+.sipo h1{
+    text-align: center;
+
+}
+.ara{
+    display: flex;
+}
